@@ -1,11 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="문효원">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="keywords" name="포트폴리오, html, css, js, 영상">
+    <meta name="Description" name="안녕하세요. 영상과 디자인을 전문으로 작업 합니다.">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>00의 포트폴리오</title>
+    
+    <!-- Favicons -->
+    <link rel="icon" href="./images/가문비.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+
+    <title>MOON 포트폴리오</title>
 </head>
 <body>
-    공사중
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand notosans">MOON H.W</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbarNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Resume
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                            </a>
+
+                            <ul class="dropdown-menu" aria aria-labelledby="navbarDropdown">
+                                <li><a href="" class="dropdown-item">디자인</a></li>
+                                <li><a href="" class="dropdown-item">영상</a></li>
+                                <li><a href="" class="dropdown-item">피그마</a><hr class="dropdown-divider"></li>
+                                <li><a href="" class="dropdown-item">WEB</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input type="search" class="form-control me-3" placeholder="검색하세요">
+                        <button type="submit" class="btn btn-outline-success">search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="my-5">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-7 order-1 order-md-0">
+                        <img src="./images/가문비.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-5 order-0 order-md-1">
+                        <h1 class="mt-5">Lorem, ipsum dolor.</h1>
+                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odio soluta optio tenetur illum pariatur eos autem mollitia, temporibus cumque laborum necessitatibus odit fugit quod rem consectetur quam praesentium cupiditate.</p>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col">
+                        <div class="bg-secondary text-white py-3 card text-center">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At culpa magni asperiores accusamus rerum impedit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <a style="text-decoration: none;" href="#"><span>Copyright 2025 문효원</span></a>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
