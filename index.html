@@ -14,6 +14,9 @@
     <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/glightbox.min.css">
     <link rel="stylesheet" href="./css/app.css">
 
     <title>MOON 포트폴리오</title>
@@ -96,9 +99,97 @@
             </div>
         </section>
 
+ <section id="career">
+            <div class="container">
+                <h2 class="text-center my-5">My Career Timeline</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h3>2018</h3>
+                            <p>Started my journey as a Junior Developer</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h3>2019</h3>
+                            <p>Started my journey as a Junior Developer</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h3>2020</h3>
+                            <p>Started my journey as a Junior Developer</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-content">
+                            <h3>2021</h3>
+                            <p>Started my journey as a Junior Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <div class="container my-5">
+                <h2 class="mb-3">나의 스킬</h2>
+                <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde culpa odit numquam quam eum ipsam porro, vitae enim, rerum natus voluptates, praesentium impedit dolorem! Ratione obcaecati excepturi fuga enim vero!</p>
+                
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>HTML</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar bg-success" style="width: 0;" role="progressbar" data-bs-target="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>CSS</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar bg-success" style="width: 0;" role="progressbar" data-bs-target="100">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>JS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar bg-danger" style="width: 0;" role="progressbar" data-bs-target="70">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>SASS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar bg-danger" style="width: 0;" role="progressbar" data-bs-target="70">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="portfolio">
             <div class="container mt-5">
-                <h2 class="text-center mb-5">Design & Video Protfolio</h2>
+                <h2 class="text-center mb-5" data-aos="fade-up">Design & Video Protfolio</h2>
                 <input type="text" id="searchInput" class="form-control" placeholder="검색어를 입력하세요.">
                 <!-- 분류 버튼 -->
                 <div class="text-center">
@@ -136,6 +227,135 @@
                 </div>
             </div>
         </section>
+
+        <section id="tabs" class="tabs section mt-5">
+            <div class="container section-title" Fade data-aos="fade-up"></div>>
+                <h2 class="text-center">Departments</h2>
+                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, totam.</p>
+            </div>
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <ul class="nav nav-tabs flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">상세 페이지 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">상세 페이지 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">상세 페이지 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">상세 페이지 4</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-5">상세 페이지 5</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9 mt-5 mt-lg-0">
+                        <div class="tab-content"> 
+                            <div class="tab-pane active show" id="tabs-tab-1">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                       <a href="./images/강아지.jpg"> <img src="./images/강아지.jpg" class="img-fluid" alt=""> </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-2">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/도시.webp" class="img-fluid" alt="">
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-3">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/해바라기.jpg" class="img-fluid" alt="">
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-4">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/강아지.jpg" class="img-fluid" alt="">
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-tab-5">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>상세 페이지 설명</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, explicabo?</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/가문비.jpg" class="img-fluid" alt="">
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section my-5">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, error.</p>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+                        <img src="./images/도시.webp" class="img-fluid" alt="">
+                        <a href="https://www.youtube.com/watch?v=Ifebl6oGZV8" class="glightbox video-play-btn">영상</a>
+                    </div>
+                    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+                        <h3>hello</h3>
+                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, deleniti?</p>
+                        <ul>
+                            <li>
+                                <i class="bi bi-check2-all"></i>
+                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check2-all"></i>
+                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check2-all"></i>
+                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
+                            </li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, est?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     
     <section id="modal-section">
@@ -149,7 +369,7 @@
                         </div>
                         <div class="ratio ratio-16:9">
                             <iframe src="https://www.youtube.com/embed/5OflOlcHLb8?si=k8lwk3rBXRNN5ptZ?autoplay=1&mute=1&control=1&loop=1&k8lwk3rBXRNN5pt"allowfullscreen></iframe>
-                        </div>
+                        </div> <!-- 영상이 안 나옴 ㅠ-->
                         <p>디자인 프로젝트 1에 대한 설명</p>
                     </div>
                 </div>
@@ -164,6 +384,8 @@
     </footer>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/glightbox.min.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
